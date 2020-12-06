@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Save Dreams Foundation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: url(img/bg6.jpg);
+        }
+
+        .logo {
+            /* border: 2px solid red; */
+            position: absolute;
+            top: 0px;
+            left: 15px;
+            display: inline block;
+        }
+
+        .logo img {
+            width: 15%;
+        }
+
+        .mid {
+            /* border: 2px solid blue; */
+            width: 65%;
+            display: block;
+            margin: 21px auto;
+            text-align: center;
+            font-size: 50px;
+
+        }
+
+        .join {
+            color: black;
+            /* border: 2px solid green; */
+            border-radius: 10px;
+            position: absolute;
+            top: 40px;
+            right: 30px;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .join a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .join a:hover {
+            color: grey;
+            text-decoration: underline;
+            border-radius: 10px;
+        }
+
+        .navbar {
+            /* border: 2px solid orange; */
+            margin: 25px auto;
+            width: 100%;
+            /* background: url(img/bg.jpg); */
+            text-align: center;
+
+        }
+
+        .nav li {
+            display: inline-block;
+            margin: 5px;
+        }
+
+        .nav li a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .nav li a:hover {
+            text-decoration: underline;
+            color: grey;
+        }
+        .volunteerform{
+            /* border: 2px solid red; */
+            width: 33%;
+            margin: 20px 50px;
+            text-align: center;
+        }
+        .form input{
+            border-radius: 10px;
+            margin: 5px 0px;
+            text-align: center;
+        }
+        .volunteerform button{
+            border-radius: 10px;
+            margin: 2px auto;
+            cursor: pointer;
+        }
+        .volunteerform button:hover{
+            background-color: grey;
+        }
+        .footer{
+            background-color: grey;
+            /* border: 2px solid red; */
+            padding: 40px 5px;
+            font-size: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header class="title">
+        <div class="logo">
+            <img src="img/logo.jpg" alt="">
+        </div>
+        <div class="mid">
+            Save Dreams Foundation
+        </div>
+        <div class="join">
+            <a href="#">Join Now</a>
+        </div>
+    </header>
+    <div class="navbar">
+        <ul class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+    <div class="volunteerform">
+        <h3>Volunteer Form</h3>
+        <form action="volunteerform.php">
+            <div class="form">
+                <input type="text" placeholder="Enter Your Full Name">
+            </div>
+            <div class="form">
+                <input type="number" placeholder="Enter Your Age">
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Enter Your Gender">
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Enter Your Locality">
+            </div>
+            <div class="form">
+                <input type="number" placeholder="Enter Your Contact No">
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Enter Your Email id">
+            </div>
+                <button class="btn">Submit Now</button>
+        </form>
+
+    </div>
+
+</body>
+<footer class="footer">
+    <span class="footer-text">© Save Dreams Foundation 2019-2020</span>
+    <div class="social-icons">
+    </div>
+
+
+</footer>
+
+</html>
